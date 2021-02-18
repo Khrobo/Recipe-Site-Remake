@@ -1,0 +1,374 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    font-size: 24px;
+    font-family: "Noto Sans KR";
+}
+header h1 {
+    position: relative;
+    top: 70px;
+    text-align: center;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: peachpuff;
+    width: 100%;
+    height: 95px;
+    z-index: 2;
+}
+.nav ul {
+    text-align: center;
+}
+.nav li {
+    display: inline-block;
+    color: black;
+    
+}
+.nav ul a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 30px;
+}
+.nav ul a:hover {
+    color: crimson;
+}
+
+/* Readings */
+
+.container {
+    font-family: "Noto Sans KR";
+    position: relative;
+    top: 100px;
+}
+.read {
+    font-size: 18px;
+    line-height: 1.5;
+    position: relative;
+}
+.read h4 {
+    font-size: 30px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+/* Recipes */
+
+.recipes {
+    font-size: 18px;
+    line-height: 1.5;
+    position: relative;
+    top: 4em;
+}
+.recipes div h3 {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+.titler {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+.images {
+    max-width: 100%;
+    width: 400px;
+}
+.alink {
+    text-decoration: none;
+    color: white;
+    background: red;
+    margin-left: 12px;
+    padding: 5px 15px 6px 15px;
+    position: relative;
+    bottom: 1px;
+    left: 6em;
+}
+.jamba {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 38em;
+}
+.jamba p, h3 {
+    margin-left: 15px;
+}
+.casserole {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 38em;
+}
+.casserole p, h3 {
+    margin-left: 15px;
+}
+.salmon {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 38em;
+}
+.salmon p, h3 {
+    margin-left: 15px;
+}
+.cookies {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 41.5em;
+}
+.cookies p, h3 {
+    margin-left: 15px;
+}
+.masala {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 41.5em;
+}
+.masala p, h3 {
+    margin-left: 15px;
+}
+.burritos {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 41.5em;
+}
+.burritos p, h3 {
+    margin-left: 15px;
+}
+.thai {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 39.5em;
+}
+.thai p, h3 {
+    margin-left: 15px;
+}
+.smores {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 39.5em;
+}
+.smores p, h3 {
+    margin-left: 15px;
+}
+.paprika {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 39.6em;
+}
+.paprika p, h3 {
+    margin-left: 15px;
+}
+.chicken {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 41.5em;
+}
+.chicken p, h3 {
+    margin-left: 15px;
+}
+.tenderloin {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 41.5em;
+}
+.tenderloin p, h3 {
+    margin-left: 15px;
+}
+.macaroons {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 41.5em;
+}
+.macaroons p, h3 {
+    margin-left: 15px;
+}
+.chocolate {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 46em;
+}
+.chocolate p, h3 {
+    margin-left: 15px;
+}
+.pudding {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 46em;
+}
+.pudding p, h3 {
+    margin-left: 15px;
+}
+.cobbler {
+    border: 1px solid gainsboro;
+    width: 20em;
+    margin: 20px;
+    height: 46em;
+}
+.cobbler p, h3 {
+    margin-left: 15px;
+}
+#casser {
+    position: relative;
+    top: 10px;
+}
+#jamb {
+    position: relative;
+    top: 10px;
+}
+#coconut {
+    position: relative;
+    top: 6px;
+}
+#masala {
+    position: relative;
+    top: 19px;
+}
+#bean {
+    position: relative;
+    top: 45px;
+}
+#thai {
+    position: relative;
+    top: 62px;
+}
+#sugar {
+    position: relative;
+    top: 89px;
+}
+#pork {
+    position: relative;
+    top: 10px;
+}
+#herbs {
+    position: relative;
+    top: 32px;
+}
+#tenderloin {
+    position: relative;
+    top: 17px;
+}
+#chewy {
+    position: relative;
+    top: 5px;
+}
+#malted {
+    position: relative;
+    top: 5px;
+}
+#pudding {
+    position: relative;
+    top: 59px;
+}
+#cobbler {
+    position: relative;
+    top: 125px;
+}
+
+/* Recipe Grid */
+
+.gridwrapper, .recipes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Footer */
+
+.footer {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.footer p {
+    font-size: 12px;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: inherit;
+    color: black;
+}
+footer a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+.listone {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 7em;
+    top: 10em;
+    align-items: center;
+}
+.listone li {
+    margin-bottom: 10px;
+    width: 140px;
+}
+.listwo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.listwo li {
+    margin-bottom: 10px;
+    position: relative;
+    left: 5em;
+    bottom: 1.6em;
+    width: 130px;
+}
+.brand li {
+    width: 140px;
+}
+.homelink {
+    position: relative;
+    top: 4em;
+    right: -10px;
+    width: 250px;
+    font-size: 2em;
+}
+
+.footer ul li {
+    list-style-type: none;
+}
+.brand li{
+    display: inline;
+    position: relative;
+    right: 1em;
+    border-right: 2px solid black;
+    margin-right: 5px;
+    padding-right: 8px;
+    height: 1px;
+}
+.logo {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: gray
+}
+
+
